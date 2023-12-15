@@ -1,0 +1,35 @@
+Q 1 :- What are the differences between var, let and const?
+
+Answer :- let and const originates from new version es6,and var is from older version of js.
+          var declaration are globally scoped or function scoped, while let and const are blocked scoped.
+          var variables can be updated and re-declared within its scope, while let variables can be updated but not re-declared,const variables can neither be updated nor re-declared.
+
+Q 2 :- Difference between undefined vs not defined vs NaN.
+
+answer :- "undefined" is a variable type that means a variable has been declared but not assigned a value, 
+          "not defined" is an error that occurs when trying to use a variable that has not been declared,
+           and "NaN" is a special value that indicates a variable has not been assigned a numerical value.
+
+
+Q 3 :- What is difference between null and undefined and where to use what?
+
+Answer :- null is often used to denote the end of a linked list, while undefined is used to denote a variable that has been declared but not yet assigned a value.
+          It is recommended to use undefined in the cases of optional parameters or function return values. However, in certain scenarios like class properties, it's recommended to use null as a default value, especially when using libraries like TypeScript or Babel that include a type checking system.
+
+Q 4 :- What is execution context?
+
+Answer :- Execution context is an abstract concept in JavaScript that determines how variables, functions, and objects behave in the code during runtime. 
+          In other words, it represents the environment in which JavaScript code is being executed.
+
+Q 5 :- What is use of prompt in JavaScript? 
+
+Answer :- The prompt() function in JavaScript is used to display a dialog box that prompts the user to enter some input.
+          The function takes two arguments: the first is the message to be displayed to the user, and the second is the default value of the input field.
+
+Q 6 :- Why JavaScript is Dyanmic Language?
+
+Answwer :- JavaScript's dynamic nature is due to its ability to handle and manipulate data at runtime.
+           Here are a few reasons why JavaScript is dynamic:
+           1.JavaScript allows us to define and create new variables at any time during the code execution.
+           2.We can change the type of a variable after it has been declared.
+           3.JavaScript allows for dynamic modification of object structures, with the ability to add or remove properties and methods from objects during runtime.
